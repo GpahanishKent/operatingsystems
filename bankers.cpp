@@ -71,17 +71,6 @@ int main()
   }
    
   int flag = 1;
-   
-  //these will check if the sequence is safe or not
-  for(int i = 0;i<n;i++)
-  {
-        if(f[i]==0)
-      {
-        flag = 0;
-        cout << "The sequence is not safe";
-        break;
-      }
-  }
  
   if(flag==1)
   {
